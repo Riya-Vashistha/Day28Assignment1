@@ -12,12 +12,12 @@ public class sampleController {
 	
 	@GetMapping("/sample")
 	ResponseEntity<?> sayHello(){
-		return new ResponseEntity<String>("Hi Riya Vashistha",HttpStatus.OK);
+		return new ResponseEntity<String>("Hi I am Riya Vashistha.",HttpStatus.OK);
 	}
 	
 	@GetMapping("/viewAll")
 	ResponseEntity<?> viewAll(){
-		return new ResponseEntity<String>("We are doind aws CI/CD",HttpStatus.OK);
+		return new ResponseEntity<String>("We are doing aws CI/CD code implementation.",HttpStatus.OK);
 	}
 
 }
